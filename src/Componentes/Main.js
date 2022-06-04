@@ -1,24 +1,18 @@
 import React from 'react'
-
+import {Link,} from 'react-router-dom'
 
 const Main = () => {
     return (
-        <div className='s1'>
 
-            <div className='sliderContent'>
+        <div className='s1'>
+            <div className='banner'>
                 <div className='mainImage'>
                     <h2>Bienvenidos!</h2>
                     <div className='ver'>
-                        <a href="">Ver productos</a>
-                    </div>
-                    
+                    <Link to="/productos">Ver productos</Link>
+                    </div>    
                 </div>
             </div>
-
-
-
-
-
         </div>
 
     )

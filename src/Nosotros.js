@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import camara2 from './GaleriaComp/galeria/camaras/camara2.jpeg'
 import batea1 from './GaleriaComp/galeria/bateas/batea1.jpg'
 import heladera1 from './GaleriaComp/galeria/heladeras/heladera1.jpg'
-import proyecto4 from './GaleriaComp/galeria/proyectos/proyecto4.jpg'
+
 
 const Nosotros = () => {
 
@@ -27,7 +27,7 @@ const Nosotros = () => {
                         <p> Nuestro mayor capital son nuestros clientes asique trabajamos permanentemente para superarnos  y  adecuándonos a su demanda asesorando sus necesidades para lograr juntos el mejor resultado. </p>
                 </div>
             </div>
-            <h2>Algunos de nuestros trabajos...</h2>
+            <h2>Algunas fotos de nuestros trabajos...</h2>
         <div className='gallery'>
                     <div className='galeContent'>
                         <img src={camara2} />

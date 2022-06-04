@@ -1,19 +1,60 @@
 import {Link} from 'react-router-dom'
 import { IoSnow } from "react-icons/io5";
+import { useState } from 'react';
+import { AiOutlineBars } from "react-icons/ai";
 
 function Header () {
-    return (
+    const [navMenu , setNavMenu] = useState(false);
+    const [menu, setMenu] = useState(false);
 
-        <header >
+    const mobilMenu = () => {
+        if(window.innerWidth < 508){
+            setNavMenu(true);
+        }else{
+            setNavMenu(false);
+        }
+    }
+
+    window.addEventListener('resize', mobilMenu);
+    
+    const cambiarMenu = () => {
+        if(window.scrollY > 100){
+            setMenu(true);
+        }else{
+            setMenu(false);
+        }
+    }
+
+    window.addEventListener('scroll', cambiarMenu);
+
+    return (
+        <header className={menu ? 'headerScroll' : 'header' }> 
             
-            <Link to='/'> <a href="" className='logo'><IoSnow className='logoIcon'/> C&A  Refrigeracion</a></Link>
-            <ul className='nav'>
-                <li><Link to='/'>Inicio</Link></li>
-                <li><Link to='/productos'>Productos</Link></li>
-                <li><Link to='/nosotros'>Nosotros</Link></li>
-                <li><Link to='/contacto'>Contacto</Link></li>
-            </ul>
-            
+                <Link to='/'> <a href="" className='logo'><IoSnow className='logoIcon'/> C&A  Refrigeracion</a></Link>
+                <div className={navMenu ? 'dropdown' : 'nav'}>
+                        <nav className='nav' >              
+                            <ul>
+                                <li><Link to='/'>Inicio</Link></li>
+                                <li><Link to='/productos'>Productos</Link></li>
+                                <li><Link to='/nosotros'>Nosotros</Link></li>
+                                <li><Link to='/contacto'>Contacto</Link></li>
+                            </ul>
+                        </nav>
+
+                    <div className='menu'>
+                        <button class="dropbtn">
+                            <AiOutlineBars/>
+                        </button>
+                        <div class="dropdown-content">
+                            <ul>
+                                <li><Link to='/'>Inicio</Link></li>
+                                <li><Link to='/productos'>Productos</Link></li>
+                                <li><Link to='/nosotros'>Nosotros</Link></li>
+                                <li><Link to='/contacto'>Contacto</Link></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
         </header>
 
 

@@ -1,12 +1,14 @@
 import React from 'react'
-import { IoSnow } from "react-icons/io5";
+import { IoSnowOutline } from "react-icons/io5";
 
-const Loader = () => {
+const Loaders = () => {
     return (
-        <div className='iconText'>
-            <IoSnow/>
+        <div className='loadContainer' >
+            <IoSnowOutline className='loader'>
+            </IoSnowOutline>
+            <h3>Cargando...</h3>
         </div>
     )
 }
 
-export default Loader
+export default Loaders

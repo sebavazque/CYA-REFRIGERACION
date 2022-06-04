@@ -1,7 +1,5 @@
 import React from 'react'
-import location from './imagen/location.png'
-import mail from './imagen/mail.png'
-import call from './imagen/call.png'
+
 import { AiFillFacebook } from "react-icons/ai";
 import { AiFillInstagram } from "react-icons/ai";
 import emailjs from '@emailjs/browser'
@@ -32,17 +30,17 @@ const Contacto = () => {
                         <h2>Nuestra info!</h2>
                         <ul className='info'>
                             <li>
-                                <span><img  src={location} alt="" /></span>
+                                <span></span>
                                 <span>Rosario , Santa Fe</span>
                             </li>
 
                             <li>
-                                <span><img  src={mail} alt="" /></span>
+                                <span></span>
                                 <span>cyarefrigeracion9@gmail.com</span>
                             </li>
 
                             <li>
-                                <span><img  src={call} alt="" /></span>
+                                <span></span>
                                 <span> 341 693 1872 </span>
                             </li>
                         </ul>

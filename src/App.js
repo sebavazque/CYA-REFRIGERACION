@@ -3,7 +3,7 @@ import Header from './Componentes/Header'
 import {BrowserRouter, Route, Routes } from 'react-router-dom'
 import Footer from './Componentes/Footer';
 import All from './All';
-import ListaProductos from './ListaProductos';
+import ListaProductos from './Componentes/ListaProductos';
 import Nosotros from './Nosotros';
 import Contacto from './Contacto';
 import Camaras from './GaleriaComp/Camaras';

@@ -4,7 +4,6 @@ import proyecto from './imagen/proyecto.jpeg'
 import batea1 from './imagen/batea1.jpg'
 import hela from './imagen/hela.jpeg'
 import AIRE from './imagen/AIRE.jpg'
-import puerta from './imagen/puerta.jpg'
 import central from './imagen/central.jpg'
 import { Link } from 'react-router-dom'
 import { BsChevronDoubleDown } from "react-icons/bs";
@@ -27,7 +26,7 @@ const ListaProductos = ({producto}) => {
                     <div className='productContent'>
                         <img src={camara} />
                         <p>Camaras Frigorificas</p> 
-                        <Link to='/camara/1'>Ver mas</Link>
+                        <Link to='/camara/1'>Ver mas detalles</Link>
                     </div>
 
                     <div className='productContent'>

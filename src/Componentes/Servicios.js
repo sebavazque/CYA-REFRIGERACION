@@ -1,21 +1,22 @@
 import React from 'react'
-import idea from 'imagen/idea.png'
-import compromiso from 'imagen/compromiso.png'
-import engranaje from 'imagen/engranaje.png'
-import { BsChevronDoubleUp } from "react-icons/bs";
+import idea from './imagen/idea.png'
+import compromiso from './imagen/compromiso.png'
+import engranaje from './imagen/engranaje.png'
+import { BsChevronDoubleDown } from "react-icons/bs";
 
 const Servicios = () => {
   return (
+
     <div className='s2'>
     <h2>Servicios</h2>
-    <div className='bs'><BsChevronDoubleUp/></div>
-    
+    <div className='bs'><BsChevronDoubleDown/></div>
+
 
     <div className='cards'>
         <div className='card'>
             <img id='img1'  src={engranaje}  />
             <h4>Mantenimiento</h4>
-            <span>Contamos con un equipo capacitado para poder resolver cualquier tipo de problema, estamos siempre listos para actuar lo antes posible.</span>
+            <span>Nuestro equipo esta capacitado para poder resolver cualquier tipo de problema, estamos siempre listos para actuar lo antes posible.</span>
         </div>
         <div className='card'>
             <img src={idea} />

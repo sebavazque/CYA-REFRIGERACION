@@ -15,6 +15,10 @@ const ItemDetail = ({producto}) => {
                         <h2>{producto.titulo}</h2>
                         <span>{producto.descripcion}</span>
                     </div>
+
+                    <div className="detailColum" >
+                    <Link to="/nosotros" ><button>Ver fotos de nuestros productos</button></Link>
+                    </div>
             </div>
             <Link to="/productos" ><button>Ver otros productos</button></Link>
         </div>
