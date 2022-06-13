@@ -2,7 +2,7 @@ import React from 'react'
 import camara from './imagen/camara.jpeg'
 import proyecto from './imagen/proyecto.jpeg'
 import batea1 from './imagen/batea1.jpg'
-import hela from './imagen/hela.jpeg'
+import h1 from './imagen/h1.jpeg'
 import AIRE from './imagen/AIRE.jpg'
 import central from './imagen/central.jpg'
 import { Link } from 'react-router-dom'
@@ -29,11 +29,6 @@ const ListaProductos = ({producto}) => {
                         <Link to='/camara/1'>Ver mas detalles</Link>
                     </div>
 
-                    <div className='productContent'>
-                        <img src={proyecto} />
-                        <p>Motores</p> 
-                        <Link to='/evaporador/4' >Ver mas detalles</Link>
-                    </div>
 
                     <div className='productContent'>
                         <img src={batea1} />
@@ -42,7 +37,7 @@ const ListaProductos = ({producto}) => {
                     </div>
 
                     <div className='productContent'>
-                        <img src={hela} />
+                        <img src={h1} />
                         <p>Heladeras</p> 
                         <Link to='/heladera/2' >Ver mas detalles</Link>
                     </div>
@@ -51,7 +46,7 @@ const ListaProductos = ({producto}) => {
                     <div className='productContent'>
                         <img src={central} />
                         <p>Centrales de frio</p> 
-                        <Link to='/batea' >Ver mas detalles</Link>
+                        <Link to='/central' >Ver mas detalles</Link>
                     </div>
 
                     <div className='productContent'>

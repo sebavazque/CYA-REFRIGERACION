@@ -1,8 +1,8 @@
 import React from 'react'
-import Servicios from './Componentes/Servicios'
-import Empresa from './Componentes/Empresa';
-import Main from './Componentes/Main';
-import BanProductos from './Componentes/BanProductos';
+import Servicios from './Servicios'
+import Empresa from './Empresa';
+import Main from './Main';
+import BanProductos from './BanProductos';
 
 
 

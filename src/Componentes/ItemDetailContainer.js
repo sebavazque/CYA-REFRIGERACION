@@ -4,7 +4,7 @@ import ItemDetail from "./ItemDetail"
 import { useParams } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import { getDocs , collection, query, where} from 'firebase/firestore';
-import { dbFirebase } from './Firebase';
+import { dbFirebase } from  './Firebase';
 import Loader from './Loader'
 
 const ItemDetailContainer = (props) => {

@@ -1,9 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import camara2 from './GaleriaComp/galeria/camaras/camara2.jpeg'
-import batea1 from './GaleriaComp/galeria/bateas/batea1.jpg'
+import camara2 from './GaleriaComp/galeria/camaras/camara2.jpeg';
+import batea1 from './GaleriaComp/galeria/bateas/batea1.jpg';
 import heladera1 from './GaleriaComp/galeria/heladeras/heladera1.jpg'
-
 
 const Nosotros = () => {
 

@@ -7,7 +7,7 @@ const Main = () => {
         <div className='s1'>
             <div className='banner'>
                 <div className='mainImage'>
-                    <h2>Bienvenidos!</h2>
+                    <h2>Bienvenidos  a  C&A Refrgeración!</h2>
                     <div className='ver'>
                     <Link to="/productos">Ver productos</Link>
                     </div>    

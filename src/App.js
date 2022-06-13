@@ -2,13 +2,13 @@ import React from 'react'
 import Header from './Componentes/Header'
 import {BrowserRouter, Route, Routes } from 'react-router-dom'
 import Footer from './Componentes/Footer';
-import All from './All';
+import All from './Componentes/All';
 import ListaProductos from './Componentes/ListaProductos';
 import Nosotros from './Nosotros';
-import Contacto from './Contacto';
+import Contacto from './Componentes/Contacto';
 import Camaras from './GaleriaComp/Camaras';
 import Bateas from './GaleriaComp/Bateas';
-import ItemDetailContainer from './ItemDetailContainer';
+import ItemDetailContainer from './Componentes/ItemDetailContainer';
 
 
 function App () {

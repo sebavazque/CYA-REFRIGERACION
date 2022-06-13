@@ -2,8 +2,7 @@ import React from 'react'
 import AIRE from './imagen/AIRE.jpg'
 import camara from './imagen/camara.jpeg'
 import proyecto from './imagen/proyecto.jpeg'
-import batea from './imagen/batea.jpg'
-import moto from './imagen/moto.jpg'
+import central from './imagen/central.jpg'
 import {Link,} from 'react-router-dom'
 
 const BanProductos = () => {
@@ -17,7 +16,7 @@ const BanProductos = () => {
             <Link to="/productos" ><img id='img' src= {AIRE} /></Link>
             <Link to="/productos" ><img id='img' src= {camara} /></Link>
             <Link to="/productos" ><img id='img' src={proyecto} /></Link>
-            <Link to="/productos" ><img id='img' src={moto} /></Link>
+            <Link to="/productos" ><img id='img' src={central} /></Link>
             </div>
         </div>
         <div  className='verMas' >

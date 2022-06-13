@@ -31,7 +31,7 @@ header{
 
 .headerScroll{
     padding: 10px 45px;
-    background-color: #42506b;
+    background-color: #355280;
 
 }
 
@@ -106,6 +106,7 @@ header .logoIcon{
     height: 80vh;
     background-image: url(./Componentes/imagen/banner\ 2.jpg);
     background-size: cover;
+    background-attachment: fixed;
     margin: 0;
 }
 
@@ -127,6 +128,7 @@ header .logoIcon{
     text-shadow: 0px 3px 4px rgb(41 40 40);
     position: absolute;
     opacity: auto;
+    
 }
 
 .bs{
@@ -143,7 +145,6 @@ header .logoIcon{
     box-sizing: border-box;
     border: 1px solid #fff;
     font-weight: 350;
-    
 }
 
 .sliderContent{
@@ -307,7 +308,7 @@ hr{
 footer{
     position: relative;
     width: 100%;
-    background-color: #42506b;
+    background-color: #355280;
     min-height: 100px;
     padding: 20px 50px;
     display: flex;
@@ -1043,6 +1044,13 @@ section::before {
     100%{-webkit-transform: rotate(360deg);}
 }
 
+
+
+.iconText .iconRotate{
+    -webkit-animation: spin 4s linear infinite;
+    -moz-animation: spin 4s linear infinite;
+    animation: spin 4s linear infinite;
+}
 
 
 

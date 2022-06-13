@@ -34,7 +34,7 @@ const Empresa = () => {
 
                 
                 <div className='iconText'>
-                    <AiOutlineDoubleLeft className='flecha'/> <IoSnowOutline/> <AiOutlineDoubleRight className='flecha'/> 
+                    <AiOutlineDoubleLeft className='flecha'/> <IoSnowOutline className='iconRotate' /> <AiOutlineDoubleRight className='flecha'/> 
                 </div>
             </div>
         </div>

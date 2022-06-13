@@ -13,7 +13,9 @@ const ItemDetail = ({producto}) => {
                     
                     <div className="detailColum" >
                         <h2>{producto.titulo}</h2>
-                        <span>{producto.descripcion}</span>
+                        <p>{producto.descripcion}</p>
+                        <p>{producto.descrip2}</p>
+                        <p>{producto.descrip3}</p>
                     </div>
 
                     <div className="detailColum" >
