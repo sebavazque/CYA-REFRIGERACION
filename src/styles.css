@@ -6,8 +6,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
-    
-    
+    min-width: 440px ;
 }
 
 *{
@@ -76,7 +75,7 @@ header  a .logo:hover{
 transform: translateY(-5px)
 }
 
-header a .logo{
+header a .logoIcon{
     color: #fff;
     text-decoration: none;
     font-size: 1.6rem;
@@ -106,7 +105,7 @@ header .logoIcon{
     height: 80vh;
     background-image: url(./Componentes/imagen/banner\ 2.jpg);
     background-size: cover;
-    background-attachment: fixed;
+    background-position: center;
     margin: 0;
 }
 
@@ -1169,7 +1168,14 @@ section::before {
         margin-top: 200px;
     }
 
+@media  (max-width: 645px){
+    .banner h2{
+        font-size: 35px;
+    }
+}
+
 @media  (max-width: 615px){
+
 
     .s3 {
             height: 1400px;
@@ -1214,6 +1220,10 @@ section::before {
 
         .s3 h2{
             font-size: 27px;
+        }
+
+        .banner h2{
+            font-size: 30px;
         }
     }
 
@@ -1286,14 +1296,18 @@ section::before {
           }
     
     }
-
+    
+    @media  (max-width: 490px){
+        .banner h2{
+             font-size: 27px;
+        }
+    }
 
     @media  (max-width: 478px){
         .bannerContainer{
             margin-top: 50px;
         }
     }
-
 
 
 @media  (max-width: 458px){
