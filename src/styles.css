@@ -1202,6 +1202,9 @@ section::before {
     footer p{
                 font-size: 1rem;
             }
+            .banner h2{
+                font-size: 25px;
+            }
     }
 
 
@@ -1222,9 +1225,7 @@ section::before {
             font-size: 27px;
         }
 
-        .banner h2{
-            font-size: 30px;
-        }
+
     }
 
 
@@ -1264,7 +1265,7 @@ section::before {
           .dropdown-content {
             display: none;
             position: absolute;
-            background-color: #42506b;
+            background-color: #355280;
             min-width: 150px;
             box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.064);
             z-index: 1;
@@ -1299,7 +1300,7 @@ section::before {
     
     @media  (max-width: 490px){
         .banner h2{
-             font-size: 27px;
+             font-size: 20px;
         }
     }
 
