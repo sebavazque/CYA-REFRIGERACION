@@ -1,6 +1,5 @@
 import React from 'react'
 import camara from './imagen/camara.jpeg'
-import proyecto from './imagen/proyecto.jpeg'
 import batea1 from './imagen/batea1.jpg'
 import h1 from './imagen/h1.jpeg'
 import AIRE from './imagen/AIRE.jpg'

@@ -1,8 +1,6 @@
 import React from 'react'
 import { AiFillFacebook } from "react-icons/ai";
 import { AiFillInstagram } from "react-icons/ai";
-import { AiOutlineWhatsApp } from "react-icons/ai";
-import { AiOutlineMail} from "react-icons/ai";
 import {Link} from 'react-router-dom'
 
 const Footer = () => {
