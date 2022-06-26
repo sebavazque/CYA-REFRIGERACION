@@ -29,19 +29,19 @@ const Nosotros = () => {
             <h2>Algunas fotos de nuestros trabajos...</h2>
         <div className='gallery'>
                     <div className='galeContent'>
-                        <img src={camara5} />
+                        <img src={camara5} alt="" />
                         <p>Camaras Frigorificas!</p> 
                         <Link to="/galeria/camaras" ><button>Ver mas fotos</button></Link>
                     </div>
 
                     <div className='galeContent'>
-                        <img src={batea6} />
+                        <img src={batea6} alt="" />
                         <p>Bateas!</p> 
                         <Link to="/galeria/bateas" ><button>Ver mas fotos</button></Link>
                     </div>
 
                     <div className='galeContent'>
-                        <img src={h1} />
+                        <img src={h1} alt="" />
                         <p>Heladeras!</p> 
                         <Link to="/galeria/heladeras" ><button>Ver mas fotos</button></Link>
                     </div>

@@ -30,7 +30,7 @@ function Header () {
     return (
         <header className={menu ? 'headerScroll' : 'header' }> 
             
-                <Link to='/'> <a href="" className='logo'><IoSnow className='logoIcon'/> C&A  Refrigeracion</a></Link>
+                <Link to='/'> <a href="#" className='logo'><IoSnow className='logoIcon'/> C&A  Refrigeracion</a></Link>
                 <div className={navMenu ? 'dropdown' : 'nav'}>
                         <nav className='nav' >              
                             <ul>
