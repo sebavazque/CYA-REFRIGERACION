@@ -13,10 +13,10 @@ const BanProductos = () => {
         <div className='content'>
 
             <div className='imgs'>
-            <Link to="/productos" ><img id='img' src= {AIRE} /></Link>
-            <Link to="/productos" ><img id='img' src= {camara} /></Link>
-            <Link to="/productos" ><img id='img' src={proyecto} /></Link>
-            <Link to="/productos" ><img id='img' src={central} /></Link>
+            <Link to="/productos" ><img id='img' src= {AIRE} alt="" /></Link>
+            <Link to="/productos" ><img id='img' src= {camara} alt="" /></Link>
+            <Link to="/productos" ><img id='img' src={proyecto} alt="" /></Link>
+            <Link to="/productos" ><img id='img' src={central}  alt=""/></Link>
             </div>
         </div>
         <div  className='verMas' >
