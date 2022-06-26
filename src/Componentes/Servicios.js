@@ -14,17 +14,17 @@ const Servicios = () => {
 
     <div className='cards'>
         <div className='card'>
-            <img id='img1'  src={engranaje}  />
+            <img id='img1'  src={engranaje} alt=""/>
             <h4>Mantenimiento</h4>
             <span>Nuestro equipo esta capacitado para poder resolver cualquier tipo de problema, estamos siempre listos para actuar lo antes posible.</span>
         </div>
         <div className='card'>
-            <img src={idea} />
+            <img src={idea} alt=""/>
             <h4>Creatividad</h4>
             <span>Contamos con un equipo de asesoramiento y asistencia técnica desde su consulta hasta el mantenimiento de los equipos.</span>
         </div>
         <div className='card'>
-            <img id='img1' src={compromiso}  />
+            <img id='img1' src={compromiso} alt="" />
             <h4>Compromiso</h4>
             <span>Nuestros clientes son nuestra mayor fuente de crecimiento por lo que nos comprometemos a entregar siempre nuestros trabajos a tiempo y con la calidad que se merecen</span>
         </div>

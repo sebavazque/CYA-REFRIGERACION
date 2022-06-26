@@ -14,43 +14,43 @@ const Productos = () => {
     return (
         <div className='productos'>
                     <div className='productContent'>
-                        <img src={camara} />
+                        <img src={camara} alt="" />
                         <p>Camaras Frigorificas!</p> 
                         <Link to="/camaras" ><button>Ver mas fotos</button></Link>
                     </div>
 
                     <div className='productContent'>
-                        <img src={proyecto} />
+                        <img src={proyecto} alt="" />
                         <p>Camaras Frigorificas!</p> 
                         <Link to="/camaras" ><button>Ver mas fotos</button></Link>
                     </div>
 
                     <div className='productContent'>
-                        <img src={batea} />
+                        <img src={batea} alt="" />
                         <p>Camaras Frigorificas!</p> 
                         <Link to="/camaras" ><button>Ver mas fotos</button></Link>
                     </div>
 
                     <div className='productContent'>
-                        <img src={hela} />
+                        <img src={hela} alt=""/>
                         <p>Camaras Frigorificas!</p> 
                         <Link to="/camaras" ><button>Ver mas fotos</button></Link>
                     </div>
 
                     <div className='productContent'>
-                        <img src={puerta} />
+                        <img src={puerta} alt=""/>
                         <p>Camaras Frigorificas!</p> 
                         <Link to="/camaras" ><button>Ver mas fotos</button></Link>
                     </div>
 
                     <div className='productContent'>
-                        <img src={central} />
+                        <img src={central} alt=""/>
                         <p>Camaras Frigorificas!</p> 
                         <Link to="/camaras" ><button>Ver mas fotos</button></Link>
                     </div>
 
                     <div className='productContent'>
-                        <img src={AIRE} />
+                        <img src={AIRE} alt="" />
                         <p>Camaras Frigorificas!</p> 
                         <Link to="/camaras" ><button>Ver mas fotos</button></Link>
                     </div>

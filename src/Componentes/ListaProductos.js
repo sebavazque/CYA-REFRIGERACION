@@ -23,33 +23,33 @@ const ListaProductos = ({producto}) => {
 
         <div className='productos'>
                     <div className='productContent'>
-                        <img src={camara} />
+                        <img src={camara} alt=""/>
                         <h2>Camaras Frigorificas</h2>
                         <Link to='/camara/1'>Ver mas detalles</Link>
                     </div>
 
 
                     <div className='productContent'>
-                        <img src={batea1} />
+                        <img src={batea1} alt=""/>
                         <h2>Bateas</h2>
                         <Link to='/batea/6' >Ver mas detalles</Link>
                     </div>
 
                     <div className='productContent'>
-                        <img src={h1} />
+                        <img src={h1} alt=""/>
                         <h2>Heladeras</h2>
                         <Link to='/heladera/2' >Ver mas detalles</Link>
                     </div>
 
 
                     <div className='productContent'>
-                        <img src={central} />
+                        <img src={central} alt="" />
                         <h2>Centrales de Frio</h2>
                         <Link to='/central/4' >Ver mas detalles</Link>
                     </div>
 
                     <div className='productContent'>
-                        <img src={AIRE} />
+                        <img src={AIRE} alt="" />
                         <h2>Aires Acondicionados</h2>
                         <Link to='/aire/3' >Ver mas detalles</Link>
                     </div> 

@@ -49,7 +49,7 @@ const Bateas = () => {
                 
         
                 <div className={model? "model open" : "model"}>
-                    <img src={tempimgSrc} style={{width:'80%'}} />
+                    <img src={tempimgSrc} style={{width:'80%'}} alt="" />
                     <BsFillBackspaceFill onClick={() => setModel(false)}/>
                 </div>
                 <div className='galeryTitle'>
@@ -60,7 +60,7 @@ const Bateas = () => {
                     {data.map((item, index) => {
                         return (
                             <div className='pics' key={index} onClick={() => getImg(item.imgSrc)}>
-                                <img src={item.imgSrc} />
+                                <img src={item.imgSrc} alt="" />
                             </div>
                             )
                         })} 
