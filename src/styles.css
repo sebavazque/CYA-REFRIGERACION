@@ -745,11 +745,13 @@ section::before {
     margin-right: 15px;
 }
 
-.containerForm .contactInfo ul.sci li a{
+.containerForm .contactInfo ul li a{
     text-decoration: none;
     color: #fff;
-    font-size: 30px;
+    font-size: 20px;
 }
+
+
 
 .containerForm .contactForm h2 {
     color: #0f3959;
@@ -855,6 +857,7 @@ section::before {
     min-width: 200px;
     height: 350px;
     margin-bottom: 20px;
+    border-radius: 20px;
 }
 
 
@@ -902,6 +905,7 @@ section::before {
     min-width: 200px;
     height: 350px;
     margin-bottom: 20px;
+    border-radius: 20px;
 }
 
 
@@ -1051,8 +1055,6 @@ section::before {
     -moz-animation: spin 4s linear infinite;
     animation: spin 4s linear infinite;
 }
-
-
 
 
 @media  (max-width: 1133px){

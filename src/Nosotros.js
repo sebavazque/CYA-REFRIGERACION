@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import camara2 from './GaleriaComp/galeria/camaras/camara2.jpeg';
-import batea1 from './GaleriaComp/galeria/bateas/batea1.jpg';
-import heladera1 from './GaleriaComp/galeria/heladeras/heladera1.jpg'
+import camara5 from './GaleriaComp/galeria/camaras/camara5.jpeg';
+import batea6 from './GaleriaComp/galeria/bateas/batea6.jpg';
+import h1 from './GaleriaComp/galeria/heladeras/h1.jpeg'
 
 const Nosotros = () => {
 
@@ -29,21 +29,21 @@ const Nosotros = () => {
             <h2>Algunas fotos de nuestros trabajos...</h2>
         <div className='gallery'>
                     <div className='galeContent'>
-                        <img src={camara2} />
+                        <img src={camara5} />
                         <p>Camaras Frigorificas!</p> 
                         <Link to="/galeria/camaras" ><button>Ver mas fotos</button></Link>
                     </div>
 
                     <div className='galeContent'>
-                        <img src={batea1} />
+                        <img src={batea6} />
                         <p>Bateas!</p> 
                         <Link to="/galeria/bateas" ><button>Ver mas fotos</button></Link>
                     </div>
 
                     <div className='galeContent'>
-                        <img src={heladera1} />
+                        <img src={h1} />
                         <p>Heladeras!</p> 
-                        <Link to="/camaras" ><button>Ver mas fotos</button></Link>
+                        <Link to="/galeria/heladeras" ><button>Ver mas fotos</button></Link>
                     </div>
 
 

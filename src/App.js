@@ -8,6 +8,7 @@ import Nosotros from './Nosotros';
 import Contacto from './Componentes/Contacto';
 import Camaras from './GaleriaComp/Camaras';
 import Bateas from './GaleriaComp/Bateas';
+import Heladeras from './GaleriaComp/Heladeras';
 import ItemDetailContainer from './Componentes/ItemDetailContainer';
 
 
@@ -22,6 +23,7 @@ function App () {
                     <Route path="/contacto" element={<Contacto />} />
                     <Route path="/galeria/camaras" element={<Camaras />} />
                     <Route path="/galeria/bateas" element={<Bateas />} />
+                    <Route path="/galeria/heladeras" element={<Heladeras />} />
                     <Route path="/:categoria/:itemId" element={<ItemDetailContainer/>}/>
                 </Routes>
                 

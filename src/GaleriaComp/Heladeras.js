@@ -2,39 +2,54 @@ import React from 'react'
 import './galeria.css'
 import { useState } from 'react';
 import { BsFillBackspaceFill} from "react-icons/bs";
-import batea2 from './galeria/bateas/batea2.jpg'
-import batea3 from './galeria/bateas/batea3.jpg'
-import batea4 from './galeria/bateas/batea4.jpg'
-import batea5 from './galeria/bateas/batea5.jpg'
-import batea6 from './galeria/bateas/batea6.jpg'
-import batea7 from './galeria/bateas/batea7.jpg'
+import h1 from './galeria/heladeras/h1.jpeg'
+import h3 from './galeria/heladeras/h3.jpeg'
+import mostrador1 from './galeria/heladeras/mostrador1.jpeg'
+import mostrador2 from './galeria/heladeras/mostrador2.jpeg'
+import pozo from './galeria/heladeras/pozo.jpeg'
+import proyecto1 from './galeria/heladeras/proyecto1.jpeg'
+import proyecto2 from './galeria/heladeras/proyecto2.jpeg'
+import proyecto3 from './galeria/heladeras/proyecto3.jpeg'
+import proyecto4 from './galeria/heladeras/proyecto4.jpg'
 
-const Bateas = () => {
 
+const Heladeras = () => {
     let data = [
         {
+            id: 1,
+            imgSrc: h1,
+        },
+        {
             id: 2,
-            imgSrc: batea2,
+            imgSrc: h3,
         },
         {
             id: 3,
-            imgSrc: batea3,
+            imgSrc: mostrador1,
         },
         {
             id: 4,
-            imgSrc: batea4,
+            imgSrc: mostrador2,
         },
         {
             id: 5,
-            imgSrc: batea5,
+            imgSrc: pozo,
         },
         {
             id: 6,
-            imgSrc: batea6,
+            imgSrc: proyecto1,
         },
         {
             id: 7,
-            imgSrc: batea7,
+            imgSrc: proyecto2,
+        },
+        {
+            id: 8,
+            imgSrc: proyecto3,
+        },
+        {
+            id: 9,
+            imgSrc: proyecto4,
         }
     ]
     const [model, setModel] = useState(false)
@@ -53,7 +68,7 @@ const Bateas = () => {
                     <BsFillBackspaceFill onClick={() => setModel(false)}/>
                 </div>
                 <div className='galeryTitle'>
-                    <h2>Bateas Frigorificas!</h2>
+                    <h2>Exhibidores y Heladeras!</h2>
                 </div>
                 <div className='galery'>
                     
@@ -65,10 +80,9 @@ const Bateas = () => {
                             )
                         })} 
                 </div> 
-             
         </div>
         
 ) 
+}
 
-    }
-export default Bateas
+export default Heladeras

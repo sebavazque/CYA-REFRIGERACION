@@ -12,7 +12,7 @@ const ItemDetail = ({producto}) => {
                     </div>
                     
                     <div className="detailColum" >
-                        <h2>{producto.titulo}</h2>
+                        <h1>{producto.titulo}</h1>
                         <p>{producto.descripcion}</p>
                         <p>{producto.descrip2}</p>
                         <p>{producto.descrip3}</p>

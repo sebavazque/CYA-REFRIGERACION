@@ -31,8 +31,8 @@ const Contacto = () => {
                         <ul className='info'>
                             <li>
                                 <span></span>
-                                <span>Rosario , Santa Fe</span>
-                            </li>
+                                <a href='https://www.google.com.ar/maps/place/Rosario,+Santa+Fe/@-32.9521898,-60.7666798,12z/data=!3m1!4b1!4m5!3m4!1s0x95b6539335d7d75b:0xec4086e90258a557!8m2!3d-32.9587022!4d-60.6930416'> Rosario, Santa Fe</a>
+                                </li>
 
                             <li>
                                 <span></span>
