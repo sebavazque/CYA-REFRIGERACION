@@ -144,6 +144,11 @@ header .logoIcon{
     box-sizing: border-box;
     border: 1px solid #fff;
     font-weight: 350;
+    
+}
+
+.mainImage .ver{
+    margin-top: 20px;
 }
 
 .sliderContent{
@@ -269,7 +274,6 @@ hr{
 }
 
 .card {
-    padding: 25px;
     margin: 20px;
 
 }
@@ -435,7 +439,7 @@ footer p{
 }
 
 .s4{
-    padding: 50px 70px 70px 70px;
+    text-align: center;
     margin-top: 50px;
     color: #1f1e1ed3;
     font-size: 25px;
@@ -984,9 +988,8 @@ section::before {
 }
 
 .boxTex .botonContact h3{
-    font-size: 35px;
+    font-size: 27px;
     font-weight: 500;
-    line-height: 28px;
     
 }
 
@@ -1205,6 +1208,9 @@ section::before {
             .banner h2{
                 font-size: 25px;
             }
+            .mainImage .ver a{
+                font-size: 18px;
+            }
     }
 
 
@@ -1301,6 +1307,9 @@ section::before {
     @media  (max-width: 490px){
         .banner h2{
              font-size: 20px;
+        }
+        .mainImage .ver a{
+            font-size: 15px;
         }
     }
 
