@@ -1,27 +1,34 @@
 import React from 'react'
+import pozo from './imagen/pozo.jpeg'
+import batea from './imagen/batea.jpg'
 import AIRE from './imagen/AIRE.jpg'
-import camara from './imagen/camara.jpeg'
-import proyecto from './imagen/proyecto.jpeg'
+import camara6 from './imagen/camara6.jpeg'
 import central from './imagen/central.jpg'
+import freezer from './imagen/freezer.jpeg'
 import {Link,} from 'react-router-dom'
+import Fade from 'react-reveal/Fade';
 
 const BanProductos = () => {
   return (
     
     <div className='s3'>
-        <h2>Algunos de nuestros productos</h2>
+      <Fade bottom>
+        <h2>Algunás fotos</h2>
         <div className='content'>
 
             <div className='imgs'>
-            <Link to="/productos" ><img id='img' src= {AIRE} alt="" /></Link>
-            <Link to="/productos" ><img id='img' src= {camara} alt="" /></Link>
-            <Link to="/productos" ><img id='img' src={proyecto} alt="" /></Link>
-            <Link to="/productos" ><img id='img' src={central}  alt=""/></Link>
+              <img id='img' src= {AIRE} alt="" />
+              <img id='img' src= {camara6} alt="" />
+              <img id='img' src={freezer} alt="" />
+              <img id='img' src={central}  alt=""/>
+              <img id='img' src= {batea} alt="" />
+              <img id='img' src={pozo} alt="" />
             </div>
         </div>
-        <div  className='verMas' >
-            <Link to="/productos" >Ver mas productos</Link>
-        </div>
+         <div  className='verMas' >
+            <Link to="/galeria" >Ver más fotos</Link>
+        </div> 
+        </Fade>
     </div>
 
   )

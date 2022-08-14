@@ -7,8 +7,13 @@
     -webkit-column-width: 33%;
     -moz-column-width: 33%;
     column-width: 33%;
-    padding: 0 120px;
+    padding: 0 20px;
     margin-top: 150px;
+}
+
+.galContainer{
+    text-align: center;
+    margin-top: 200px;
 }
 
 
@@ -24,6 +29,50 @@
     margin-bottom: 12px;
 
 }
+.bannerContenido p{
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+    padding: 10px;
+}
+
+.bannerContenido{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background-color: rgba(0, 22, 40, .6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    text-shadow: 0px 3px 4px rgb(41 40 40);
+    position: absolute;
+    opacity: auto;
+    text-align: center;
+}
+
+
+.banner-container{
+    position: relative;
+    width: 100%;
+    background-color: #F5F5F5;
+    background-size: cover;
+    background-position: center;
+    height: 410px;
+    background-image: url(./galeria/camaras/banner2.jpg);
+}   
+
+.bannerGaleria{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
 
 .galeryTitle h2{
     color: #000;
@@ -38,7 +87,6 @@
     width: 100%;
     height: 100vh;
     position: fixed;
-    top: 0;
     left: 0;
     display: flex;
     justify-content: center;
@@ -50,6 +98,7 @@
     z-index: 999;
     transform: scale(0);
     overflow: hidden;
+    margin-top: -100px;
 }
 
 .model.open{
@@ -61,11 +110,11 @@
 .model img{
     width: auto;
     height: auto;
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 80%;
+    max-height: 90%;
     display: block;
     line-height: 0;
-    margin: 0 auto;
+    margin-top: 10px;
     box-sizing: border-box;
     padding: 20px 0;
 
@@ -73,7 +122,7 @@
 
 .model.open svg{
     position: fixed;
-    top: 10px;
+    top: 100px;
     right: 10px;
     width: 2rem;
     height: 2rem;
@@ -88,15 +137,15 @@
         -webkit-column-count: 2;
         -moz-column-count: 2;
         column-count: 2;
-        margin-top: 200px;
         }
 }
-@media  (max-width: 685px){
-    .galery{
+@media  (max-width: 817px){
+    .model{
+        margin-top: -100px;
+    }
+}
 
-        margin-top: 250px;
-        }
-}
+
 
 @media  (max-width: 510px){
     .galery{
@@ -109,9 +158,3 @@
         }
 }
 
-@media  (max-width: 450px){
-    .galery{
-
-        margin-top: 290px;
-        }
-}

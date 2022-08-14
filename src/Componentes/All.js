@@ -1,24 +1,22 @@
 import React from 'react'
 import Servicios from './Servicios'
-import Empresa from './Empresa';
-import Main from './Main';
 import BanProductos from './BanProductos';
-
+import Nosotros from './Nosotros';
+import Banner from './Banner';
 
 
 const All = () => {
+    
     return (
         <div>
-
-            <Main/>
+ 
+            <Banner/>
+            
+            <Nosotros  />
 
             <Servicios/> 
 
             <BanProductos/>
-
-            <Empresa/>
-
-            
 
         </div>
     )
