@@ -1,53 +1,62 @@
 import {Link} from 'react-router-dom'
 import { IoSnow } from "react-icons/io5";
 import { useState } from 'react';
-import { AiOutlineBars } from "react-icons/ai";
+import { AiOutlineWhatsApp, AiOutlineInstagram } from "react-icons/ai";
 import Bounce from 'react-reveal/Bounce';
 
 function Header () {
-    const [navMenu , setNavMenu] = useState(false);
+    const [menu, setMenu] = useState(false);
+    const [burger, setBurger] = useState(false)
 
-
-    const mobilMenu = () => {
-        if(window.innerWidth < 840){
-            setNavMenu(true);
+    const cambiarMenu = () => {
+        if(window.scrollY > 100){
+            setMenu(true);
         }else{
-            setNavMenu(false);
+            setMenu(false);
         }
     }
 
-    window.addEventListener('resize', mobilMenu);
-    
+    window.addEventListener('scroll', cambiarMenu);
+
+
+    function handleClick(){
+        setBurger(burger => !burger);
+    }
+
+    let changeClass = burger ? 'active' : 'menuBurger'; 
+    let changeClass2 = burger ? 'active2' : 'menuBurger'; 
+    let changeBurger = burger ? 'ac' : 'dropbtn';
 
     return (
-        <header className='header' > 
+        <header  className={menu ? 'headerScroll' : 'header' }  > 
             <Bounce top>
                 <Link to='/'> <IoSnow className='logoIcon'/> </Link>
                 </Bounce>
-                <div className={navMenu ? 'dropdown' : 'nav'}>
-                        <nav className='nav' >              
-                            <ul>
-                                <li><Link to='/'>Inicio</Link></li>
-                                <li><Link to='/productos'>Productos</Link></li>
-                                <li><Link to='/galeria'>Galeria</Link></li>
-                                <li><Link to='/contacto'>Contacto</Link></li>
-                            </ul>
-                        </nav>
+                <nav className='nav' >  
+                            <div className='nav-content'>           
+                                <button className={`${changeBurger}`}  onClick={handleClick}>
+                                    <span className='line1'></span>
+                                    <span className='line2'></span>
+                                    <span className='line3'></span>
+                                </button>
+                                
+                                <div className={`${changeClass}`} >
+                                    <ul>
+                                        <li><Link to='/'>Inicio</Link></li>
+                                        <li><Link to='/contacto'>Contacto</Link></li>
+                                        <li><Link to='/galeria'>Galeria</Link> </li>
+                                        <li><a href='https://www.instagram.com/weareferoe/'><AiOutlineInstagram className='instaNav'/> </a> </li>
+                                        <li><a href='https://wa.me/3413667323'><AiOutlineWhatsApp className='instaNav'/></a></li>
+                                    </ul>
+                                    
 
-                    <div className='menu'>
-                        <button class="dropbtn">
-                            <AiOutlineBars/>
-                        </button>
-                        <div class='dropdown-content'>
-                            <ul>
-                                <li><Link to='/'>Inicio</Link></li>
-                                <li><Link to='/productos'>Productos</Link></li>
-                                <li><Link to='/galeria'>Galeria</Link></li>
-                                <li><Link to='/contacto'>Contacto</Link></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+                                </div>
+                                <div className={`${changeClass2}`}></div>
+                            
+                            </div> 
+
+
+                        </nav>
         </header>
 
 

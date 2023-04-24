@@ -29,8 +29,27 @@ import h4 from './galeria/heladeras/h4.jpeg'
 import h5 from './galeria/heladeras/h5.jpeg'
 import h6 from './galeria/heladeras/h6.jpeg'
 import h7 from './galeria/heladeras/h7.jpeg'
+import h8 from './galeria/heladeras/h8.jpeg'
+import h9 from './galeria/heladeras/h9.jpeg'
+import h10 from './galeria/heladeras/h9.jpeg'
 import freezer from './galeria/heladeras/freezer.jpeg'
 import { useEffect } from 'react'
+import c1 from './galeria/camaras/c1.jpeg'
+import c2 from './galeria/camaras/c2.jpeg'
+import c3 from './galeria/camaras/c3.jpeg'
+import c4 from './galeria/camaras/c4.jpeg'
+import c5 from './galeria/camaras/c5.jpeg'
+import c6 from './galeria/camaras/c6.jpeg'
+import c7 from './galeria/camaras/c7.jpeg'
+import c8 from './galeria/camaras/c8.jpeg'
+import c9 from './galeria/camaras/c9.jpeg'
+import c10 from './galeria/camaras/c10.jpeg'
+import c11 from './galeria/camaras/c11.jpeg'
+import c12 from './galeria/camaras/c12.jpeg'
+import c13 from './galeria/camaras/c13.jpeg'
+import c14 from './galeria/camaras/c14.jpeg'
+import c15 from './galeria/camaras/c15.jpeg'
+
 
 const GaleCompleta = () => {
 
@@ -146,7 +165,76 @@ const GaleCompleta = () => {
         {
             id: 29,
             imgSrc: freezer,
-        }
+        },
+        {
+            id: 30,
+            imgSrc: h8,
+        },        {
+            id: 31,
+            imgSrc: c1,
+        },
+        {
+            id: 32,
+            imgSrc: c2,
+        },
+        {
+            id: 33,
+            imgSrc: c3,
+        },
+        {
+            id: 34,
+            imgSrc: c4,
+        },
+        {
+            id: 35,
+            imgSrc: c5,
+        },        {
+            id: 36,
+            imgSrc: c6,
+        },
+        {
+            id: 37,
+            imgSrc: c7,
+        },
+        {
+            id: 38,
+            imgSrc: c8,
+        },
+        {
+            id:39,
+            imgSrc:c9,
+        },
+        {
+            id: 40,
+            imgSrc: h9,
+        },
+        {
+            id:41,
+            imgSrc:h10,
+        },
+        {
+            id: 42,
+            imgSrc: c10,
+        },
+        {
+            id: 43,
+            imgSrc: c11,
+        },        {
+            id:44,
+            imgSrc: c12,
+        },
+        {
+            id: 45,
+            imgSrc: c13,
+        },
+        {
+            id: 46,
+            imgSrc: c14,
+        },
+        {
+            id:47,
+            imgSrc:c15,
+        },
     ]
 
     

@@ -22,7 +22,7 @@ function App () {
                     <Route path="/galeria" element={<Galeria/>} />
                 </Routes>
                 
-                <Footer/>
+                <Footer />
                 
         </BrowserRouter>
 
